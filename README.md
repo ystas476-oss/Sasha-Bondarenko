@@ -88,4 +88,4 @@
 
 ## Результат тестування
 
-![Cargo Test](src/hackerrank/results/all/cargo-test-no-warnings.png)
+![Cargo Test](src/hackerrank/results/All/cargo-test-no-warnings.png)
