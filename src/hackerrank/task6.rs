@@ -9,3 +9,12 @@ pub fn kangaroo(x1: i32, v1: i32, x2: i32, v2: i32) -> String {
         "NO".to_string()
     }
 }
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_kangaroo() {
+        assert_eq!(kangaroo(0, 3, 4, 2), "YES");
+    }
+}

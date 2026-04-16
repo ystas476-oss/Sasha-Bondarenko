@@ -17,3 +17,12 @@ pub fn breaking_records(scores: Vec<i32>) -> (i32, i32) {
 
     (max_count, min_count)
 }
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_example() {
+        assert_eq!(breaking_records(vec![10, 5, 20, 20, 4, 5, 2, 25, 1]), (2, 4));
+    }
+}

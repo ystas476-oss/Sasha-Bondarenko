@@ -15,3 +15,12 @@ pub fn get_total_x(a: Vec<i32>, b: Vec<i32>) -> i32 {
 
     count
 }
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_example() {
+        assert_eq!(get_total_x(vec![2, 4], vec![16, 32, 96]), 3);
+    }
+}
