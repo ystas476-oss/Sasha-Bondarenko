@@ -26,3 +26,22 @@
 ## HackerRank
 
 ![HR](src/hackerrank/results/4/hackerrank.png)
+# Практична №5 — Apple and Orange
+
+- Мова: Rust
+- Є модульні тести
+- Пройдено HackerRank
+
+## Умова
+
+https://www.hackerrank.com/challenges/apple-and-orange
+
+## Результат
+
+Усі тести пройдені успішно
+
+![Local](src/hackerrank/results/5/local.png)
+
+## HackerRank
+
+![HR](src/hackerrank/results/5/hackerrank.png)
