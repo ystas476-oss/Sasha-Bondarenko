@@ -86,3 +86,6 @@
 
 ---
 
+## Результат тестування
+
+![Cargo Test](src/hackerrank/results/all/cargo-test-no-warnings.png)
